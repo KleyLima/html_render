@@ -1,0 +1,53 @@
+body {
+	background: url(docker.gif) 0px 1300px;
+	background-size: cover;
+	background-size: cover;
+	width: 90%;
+	height: 90px;
+	margin: auto;
+	line-height: 1.5;
+	text-align: center;
+}
+
+p, h1, h2, h3 {
+	display: inline-block;
+	color: #fff;
+}
+
+h1 {
+	background: #008bff;
+}
+
+p {
+	background: #fff;	
+}
+
+h2 {
+	background: #8600f7;
+}
+
+h3 {
+    background: #42f554;
+}
+
+button{
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+
+.funct{
+	display: inline-block;
+	color: #00ffbf;
+	border-radius: 12px;
+	background: #a4202085;
+	text-align: center;
+  text-decoration: none;
+	padding: 15px 32px;
+	font-size: 130%
+	padding-top: 15px;
+	margin: 30px 4px;
+	outline: none;
+	border:none;
+}
+
+

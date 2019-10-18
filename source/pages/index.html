@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='pt'>
+	<head>
+		<meta charset="UTF-8">
+		<title>Home Page</title>
+		<div class = "backg">
+			<link rel="stylesheet" href="pages/style.css">
+		</div>
+	</head>
+	<body>
+        	<h1>
+        	Web Docker
+		</h1><br>
+
+		<h2>
+		Digite o CPF a ser consultado:
+		</h2><br><br>
+
+		<form enctype="application/json" action="http://localhost:7979/consulta_dtnasc/" method = "POST">
+  			<input name='cpf' placeholder="CPF">
+  			<button>Consultar</button>
+		</form>
+		
+        	<div id="jinja2-div">
+            		{% block content %}
+
+            		{% endblock %}
+		</div>
+
+	</body>
+</html>
